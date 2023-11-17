@@ -27,4 +27,4 @@ io.on('connection', socket =>{
         socket.broadcast.emit('receivedMessage', data)
     })
 })
-server.listen(5000);;;;;
+server.listen(5000);
